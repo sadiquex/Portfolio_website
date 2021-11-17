@@ -1,0 +1,131 @@
+
+/*====body*/
+body{
+    font-family: Montserrat;
+}
+
+
+#header{
+    box-shadow:8px 5px 45px black;
+    background-color: rgb(27, 100, 129);
+    font-family: Montserrat;
+    font-weight: 300;
+    text-align: center;
+    font-size: 14;
+    color: azure;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin: 20px;
+    }
+
+    /*========navbar=========*/
+#navbar{
+    box-shadow:4px 5px 32px black;
+    text-decoration: none;
+    padding: 50px;
+    list-style-type: none;
+    word-spacing: 110px;
+    text-align: center;
+    color: azure;
+    background-color: rgb(27, 100, 129);
+    margin-top: 10px;
+    height: 35px;
+    font-size: large;
+    font-family: Montserrat;
+}
+
+#navbar ul li{
+    font-size: 20;
+    display: inline;
+    color: rgb(0, 102, 102);
+}
+#navbar ul li a{
+    color: azure;
+    display: inline;
+}
+#navbar ul li:hover{
+    opacity: 1.0;
+    color: #000000;
+    padding: 15px;
+    border-radius: 25px;
+    height: 20px;
+background-color: #000000;
+transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+/*===============brief==============*/
+.brief{
+    color: rgb(27, 100, 129);
+    font-family: Montserrat;
+    font-weight: 650;
+    font-size: 150%;
+}
+
+/*==============main=============*/
+.main{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-weight: 450;
+    font-size: 110%;
+    word-spacing: 5px;
+}
+
+/*==============picture=======*/
+.profile_pic{
+    background-color: rgb(27, 100, 129);
+    padding: 10px;
+    width: 305px;
+    height: 376px;
+    margin: 10px;
+    float: right;
+    border-radius: 50px;
+    opacity: 0.2;
+	transition: opacity 0.3s ease-in-out;
+}  
+
+    .profile_pic:hover{
+        /*---for infinite animation----*/
+        animation-iteration-count:infinite;
+        opacity: 1.0;
+    }
+
+
+/*whole footer*/
+#footer{
+    background-color: rgba(27, 100, 129, 0.404);
+    height: 50px;
+    text-align: center;
+    color: black;
+    word-spacing: 80px;
+    margin-bottom: 20 ;
+}
+
+
+#footer ul li{
+    font-size: 20px;
+    font-family: Georgia;
+    display: inline;
+    color: white;
+    font-family: Montserrat;
+    font-size: 90%;
+}
+
+#footer ul li:hover{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+
+/*copyright*/
+.copyright{
+    text-align: center;
+    font-size:90%;
+    padding: 10;
+    font-family: Montserrat;
+}
+

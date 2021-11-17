@@ -1,0 +1,19 @@
+/*---------PORTFOLIO_STYLE(STYLING THE PICTURES IN PORTFOLIO--------->
+/*rectangle*/
+.rectangle{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 20px;
+    color: #ffffff;
+    border-color: #000000;
+    background: cornflowerblue;
+    opacity: 0.3;
+    transition: 0.1s ease-in-out;
+    border-radius: 50px;
+}
+
+.rectangle:hover{
+    opacity: 1.0;
+}
